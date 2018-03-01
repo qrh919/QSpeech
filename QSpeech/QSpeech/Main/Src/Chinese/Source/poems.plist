@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>《咏鹅》</string>
+		<key>author</key>
+		<string>(骆宾王)</string>
+		<key>content</key>
+		<string>鹅鹅鹅，
+曲项向天歌。
+白毛浮绿水，
+红掌拨清波。
+</string>
+	</dict>
+    <dict>
+        <key>name</key>
+        <string>《山村咏怀》</string>
+        <key>author</key>
+        <string>(邵雍)</string>
+        <key>content</key>
+        <string>一去二三里，
+烟村四五家。
+亭台六七座，
+八九十枝花。
+        </string>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>《画》</string>
+        <key>author</key>
+        <string>(王维)</string>
+        <key>content</key>
+        <string>远看山有色，
+近听水无声。
+春去花还在，
+人来鸟不惊。
+        </string>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>《静夜思》</string>
+        <key>author</key>
+        <string>(李白)</string>
+        <key>content</key>
+        <string>床前明月光，
+疑是地上霜。
+举头望明月，
+低头思故乡。
+        </string>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>《春晓》</string>
+        <key>author</key>
+        <string>(孟浩然)</string>
+        <key>content</key>
+        <string>春眠不觉晓，
+处处闻啼鸟。
+夜来风雨声，
+花落知多少。
+        </string>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>《村居》</string>
+        <key>author</key>
+        <string>(高鼎)</string>
+        <key>content</key>
+        <string>草长莺飞二月天，
+拂堤杨柳醉春烟。
+儿童散学归来早，
+忙趁东风放纸鸢。
+        </string>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>《所见》</string>
+        <key>author</key>
+        <string>(袁枚)</string>
+        <key>content</key>
+        <string>牧童骑黄牛，
+歌声振林樾。
+意欲捕鸣蝉，
+忽然闭口立。
+        </string>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>《小池》</string>
+        <key>author</key>
+        <string>(杨万里)</string>
+        <key>content</key>
+        <string>泉眼无声惜细流，
+树阴照水爱晴柔。
+小荷才露尖尖角，
+早有蜻蜓立上头。
+        </string>
+    </dict>
+</array>
+</plist>

@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E00F5682007198600162AF9 /* QChinesePoemListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E00F5672007198600162AF9 /* QChinesePoemListController.m */; };
+		2E00F56B200719D600162AF9 /* QChineseABCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E00F56A200719D600162AF9 /* QChineseABCViewController.m */; };
+		2E00F56E2007489F00162AF9 /* QChinesePoemDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E00F56D2007489F00162AF9 /* QChinesePoemDetailViewController.m */; };
+		2E00F5712007497D00162AF9 /* poems.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2E00F5702007497D00162AF9 /* poems.plist */; };
+		2E00F57420074BA900162AF9 /* QChinesePoem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E00F57320074BA900162AF9 /* QChinesePoem.m */; };
+		2E00F57720074EBE00162AF9 /* QChineseCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E00F57620074EBE00162AF9 /* QChineseCollectionCell.m */; };
+		2E01B566200C990700B68FBB /* QTranstionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E01B565200C990700B68FBB /* QTranstionAnimation.m */; };
+		2E01B569200CA82800B68FBB /* QPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E01B568200CA82800B68FBB /* QPresentationController.m */; };
+		2E420B89204657B600A6684E /* QADView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E420B88204657B600A6684E /* QADView.m */; };
+		2E420B8C2046595A00A6684E /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E420B8B2046595A00A6684E /* UIImage+Extension.m */; };
+		2E49A4C72005B5F300BDBB8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E49A4C62005B5F300BDBB8C /* AppDelegate.m */; };
+		2E49A4D02005B5F300BDBB8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E49A4CE2005B5F300BDBB8C /* Main.storyboard */; };
+		2E49A4D22005B5F300BDBB8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E49A4D12005B5F300BDBB8C /* Assets.xcassets */; };
+		2E49A4D52005B5F300BDBB8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E49A4D32005B5F300BDBB8C /* LaunchScreen.storyboard */; };
+		2E49A4D82005B5F300BDBB8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E49A4D72005B5F300BDBB8C /* main.m */; };
+		2E49A4E32005BD3800BDBB8C /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E49A4E22005BD3800BDBB8C /* BaseViewController.m */; };
+		2E49A4E62005BD5F00BDBB8C /* QNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E49A4E52005BD5F00BDBB8C /* QNavigationViewController.m */; };
+		2E49A4E92005BDAB00BDBB8C /* QMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E49A4E82005BDAB00BDBB8C /* QMainViewController.m */; };
+		2E49A4F12005E98C00BDBB8C /* QMainCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E49A4F02005E98C00BDBB8C /* QMainCollectionCell.m */; };
+		2E49A4F52005F55500BDBB8C /* UILabel+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E49A4F42005F55500BDBB8C /* UILabel+Extension.m */; };
+		2E49A4F820060E6E00BDBB8C /* QChineseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E49A4F720060E6E00BDBB8C /* QChineseViewController.m */; };
+		2E49A4FB20060E7F00BDBB8C /* QMathViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E49A4FA20060E7F00BDBB8C /* QMathViewController.m */; };
+		2E49A4FE20060E8E00BDBB8C /* QMoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E49A4FD20060E8E00BDBB8C /* QMoreViewController.m */; };
+		CBBBEDF58C3E3AC809088A5B /* libPods-QSpeech.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF600EED07D6FEC2D7F69171 /* libPods-QSpeech.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		020102F7FF1E5BFB4E8C69B7 /* Pods-QSpeech.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QSpeech.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QSpeech/Pods-QSpeech.debug.xcconfig"; sourceTree = "<group>"; };
+		2E00F5662007198600162AF9 /* QChinesePoemListController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QChinesePoemListController.h; sourceTree = "<group>"; };
+		2E00F5672007198600162AF9 /* QChinesePoemListController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QChinesePoemListController.m; sourceTree = "<group>"; };
+		2E00F569200719D600162AF9 /* QChineseABCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QChineseABCViewController.h; sourceTree = "<group>"; };
+		2E00F56A200719D600162AF9 /* QChineseABCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QChineseABCViewController.m; sourceTree = "<group>"; };
+		2E00F56C2007489F00162AF9 /* QChinesePoemDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QChinesePoemDetailViewController.h; sourceTree = "<group>"; };
+		2E00F56D2007489F00162AF9 /* QChinesePoemDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QChinesePoemDetailViewController.m; sourceTree = "<group>"; };
+		2E00F5702007497D00162AF9 /* poems.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = poems.plist; sourceTree = "<group>"; };
+		2E00F57220074BA900162AF9 /* QChinesePoem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QChinesePoem.h; sourceTree = "<group>"; };
+		2E00F57320074BA900162AF9 /* QChinesePoem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QChinesePoem.m; sourceTree = "<group>"; };
+		2E00F57520074EBE00162AF9 /* QChineseCollectionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QChineseCollectionCell.h; sourceTree = "<group>"; };
+		2E00F57620074EBE00162AF9 /* QChineseCollectionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QChineseCollectionCell.m; sourceTree = "<group>"; };
+		2E01B564200C990700B68FBB /* QTranstionAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QTranstionAnimation.h; sourceTree = "<group>"; };
+		2E01B565200C990700B68FBB /* QTranstionAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QTranstionAnimation.m; sourceTree = "<group>"; };
+		2E01B567200CA82800B68FBB /* QPresentationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QPresentationController.h; sourceTree = "<group>"; };
+		2E01B568200CA82800B68FBB /* QPresentationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QPresentationController.m; sourceTree = "<group>"; };
+		2E420B87204657B600A6684E /* QADView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QADView.h; sourceTree = "<group>"; };
+		2E420B88204657B600A6684E /* QADView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QADView.m; sourceTree = "<group>"; };
+		2E420B8A2046595A00A6684E /* UIImage+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		2E420B8B2046595A00A6684E /* UIImage+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		2E49A4C22005B5F300BDBB8C /* QSpeech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QSpeech.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E49A4C52005B5F300BDBB8C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2E49A4C62005B5F300BDBB8C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2E49A4CF2005B5F300BDBB8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2E49A4D12005B5F300BDBB8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E49A4D42005B5F300BDBB8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2E49A4D62005B5F300BDBB8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E49A4D72005B5F300BDBB8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2E49A4E12005BD3800BDBB8C /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		2E49A4E22005BD3800BDBB8C /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		2E49A4E42005BD5F00BDBB8C /* QNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QNavigationViewController.h; sourceTree = "<group>"; };
+		2E49A4E52005BD5F00BDBB8C /* QNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QNavigationViewController.m; sourceTree = "<group>"; };
+		2E49A4E72005BDAB00BDBB8C /* QMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QMainViewController.h; sourceTree = "<group>"; };
+		2E49A4E82005BDAB00BDBB8C /* QMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QMainViewController.m; sourceTree = "<group>"; };
+		2E49A4ED2005C43C00BDBB8C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		2E49A4EE2005C67600BDBB8C /* DefineHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DefineHeader.h; sourceTree = "<group>"; };
+		2E49A4EF2005E98C00BDBB8C /* QMainCollectionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QMainCollectionCell.h; sourceTree = "<group>"; };
+		2E49A4F02005E98C00BDBB8C /* QMainCollectionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QMainCollectionCell.m; sourceTree = "<group>"; };
+		2E49A4F32005F55500BDBB8C /* UILabel+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+Extension.h"; sourceTree = "<group>"; };
+		2E49A4F42005F55500BDBB8C /* UILabel+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Extension.m"; sourceTree = "<group>"; };
+		2E49A4F620060E6E00BDBB8C /* QChineseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QChineseViewController.h; sourceTree = "<group>"; };
+		2E49A4F720060E6E00BDBB8C /* QChineseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QChineseViewController.m; sourceTree = "<group>"; };
+		2E49A4F920060E7F00BDBB8C /* QMathViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QMathViewController.h; sourceTree = "<group>"; };
+		2E49A4FA20060E7F00BDBB8C /* QMathViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QMathViewController.m; sourceTree = "<group>"; };
+		2E49A4FC20060E8E00BDBB8C /* QMoreViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QMoreViewController.h; sourceTree = "<group>"; };
+		2E49A4FD20060E8E00BDBB8C /* QMoreViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QMoreViewController.m; sourceTree = "<group>"; };
+		3F28E915DB45A30381BEC7EE /* Pods-QSpeech.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QSpeech.release.xcconfig"; path = "Pods/Target Support Files/Pods-QSpeech/Pods-QSpeech.release.xcconfig"; sourceTree = "<group>"; };
+		FF600EED07D6FEC2D7F69171 /* libPods-QSpeech.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QSpeech.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E49A4BF2005B5F300BDBB8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBBBEDF58C3E3AC809088A5B /* libPods-QSpeech.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E00F56F2007493B00162AF9 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				2E00F5702007497D00162AF9 /* poems.plist */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		2E01B563200C98B700B68FBB /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				2E01B564200C990700B68FBB /* QTranstionAnimation.h */,
+				2E01B565200C990700B68FBB /* QTranstionAnimation.m */,
+				2E01B567200CA82800B68FBB /* QPresentationController.h */,
+				2E01B568200CA82800B68FBB /* QPresentationController.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		2E420B852046573200A6684E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				2E420B87204657B600A6684E /* QADView.h */,
+				2E420B88204657B600A6684E /* QADView.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		2E420B862046575E00A6684E /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		2E49A4B92005B5F300BDBB8C = {
+			isa = PBXGroup;
+			children = (
+				2E49A4C42005B5F300BDBB8C /* QSpeech */,
+				2E49A4C32005B5F300BDBB8C /* Products */,
+				CA819F46F76B7EE018C00387 /* Pods */,
+				DE166379F429F4A3F525340A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2E49A4C32005B5F300BDBB8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E49A4C22005B5F300BDBB8C /* QSpeech.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E49A4C42005B5F300BDBB8C /* QSpeech */ = {
+			isa = PBXGroup;
+			children = (
+				2E49A4DE2005BD1D00BDBB8C /* Main */,
+				2E49A4C52005B5F300BDBB8C /* AppDelegate.h */,
+				2E49A4C62005B5F300BDBB8C /* AppDelegate.m */,
+				2E49A4CE2005B5F300BDBB8C /* Main.storyboard */,
+				2E49A4D12005B5F300BDBB8C /* Assets.xcassets */,
+				2E49A4D32005B5F300BDBB8C /* LaunchScreen.storyboard */,
+				2E49A4D62005B5F300BDBB8C /* Info.plist */,
+				2E49A4D72005B5F300BDBB8C /* main.m */,
+				2E49A4ED2005C43C00BDBB8C /* PrefixHeader.pch */,
+			);
+			path = QSpeech;
+			sourceTree = "<group>";
+		};
+		2E49A4DE2005BD1D00BDBB8C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				2E49A4DF2005BD1D00BDBB8C /* Base */,
+				2E420B852046573200A6684E /* Common */,
+				2E49A4F22005F51600BDBB8C /* Category */,
+				2E420B862046575E00A6684E /* Lib */,
+				2E01B563200C98B700B68FBB /* Tool */,
+				2E49A4E02005BD1D00BDBB8C /* Src */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		2E49A4DF2005BD1D00BDBB8C /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				2E49A4EE2005C67600BDBB8C /* DefineHeader.h */,
+				2E49A4E12005BD3800BDBB8C /* BaseViewController.h */,
+				2E49A4E22005BD3800BDBB8C /* BaseViewController.m */,
+				2E49A4E42005BD5F00BDBB8C /* QNavigationViewController.h */,
+				2E49A4E52005BD5F00BDBB8C /* QNavigationViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		2E49A4E02005BD1D00BDBB8C /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				2E49A4EF2005E98C00BDBB8C /* QMainCollectionCell.h */,
+				2E49A4F02005E98C00BDBB8C /* QMainCollectionCell.m */,
+				2E49A4E72005BDAB00BDBB8C /* QMainViewController.h */,
+				2E49A4E82005BDAB00BDBB8C /* QMainViewController.m */,
+				2E49A4EA2005BE6A00BDBB8C /* Chinese */,
+				2E49A4EB2005BE6A00BDBB8C /* Math */,
+				2E49A4EC2005BE6A00BDBB8C /* More */,
+			);
+			path = Src;
+			sourceTree = "<group>";
+		};
+		2E49A4EA2005BE6A00BDBB8C /* Chinese */ = {
+			isa = PBXGroup;
+			children = (
+				2E00F56F2007493B00162AF9 /* Source */,
+				2E49A50020060EC400BDBB8C /* Model */,
+				2E49A4FF20060EC400BDBB8C /* Views */,
+				2E49A4F620060E6E00BDBB8C /* QChineseViewController.h */,
+				2E49A4F720060E6E00BDBB8C /* QChineseViewController.m */,
+				2E00F5662007198600162AF9 /* QChinesePoemListController.h */,
+				2E00F5672007198600162AF9 /* QChinesePoemListController.m */,
+				2E00F56C2007489F00162AF9 /* QChinesePoemDetailViewController.h */,
+				2E00F56D2007489F00162AF9 /* QChinesePoemDetailViewController.m */,
+				2E00F569200719D600162AF9 /* QChineseABCViewController.h */,
+				2E00F56A200719D600162AF9 /* QChineseABCViewController.m */,
+			);
+			path = Chinese;
+			sourceTree = "<group>";
+		};
+		2E49A4EB2005BE6A00BDBB8C /* Math */ = {
+			isa = PBXGroup;
+			children = (
+				2E49A50220060ECA00BDBB8C /* Model */,
+				2E49A50120060ECA00BDBB8C /* Views */,
+				2E49A4F920060E7F00BDBB8C /* QMathViewController.h */,
+				2E49A4FA20060E7F00BDBB8C /* QMathViewController.m */,
+			);
+			path = Math;
+			sourceTree = "<group>";
+		};
+		2E49A4EC2005BE6A00BDBB8C /* More */ = {
+			isa = PBXGroup;
+			children = (
+				2E49A50320060ED200BDBB8C /* Model */,
+				2E49A50420060ED200BDBB8C /* Views */,
+				2E49A4FC20060E8E00BDBB8C /* QMoreViewController.h */,
+				2E49A4FD20060E8E00BDBB8C /* QMoreViewController.m */,
+			);
+			path = More;
+			sourceTree = "<group>";
+		};
+		2E49A4F22005F51600BDBB8C /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				2E49A4F32005F55500BDBB8C /* UILabel+Extension.h */,
+				2E49A4F42005F55500BDBB8C /* UILabel+Extension.m */,
+				2E420B8A2046595A00A6684E /* UIImage+Extension.h */,
+				2E420B8B2046595A00A6684E /* UIImage+Extension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		2E49A4FF20060EC400BDBB8C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2E00F57520074EBE00162AF9 /* QChineseCollectionCell.h */,
+				2E00F57620074EBE00162AF9 /* QChineseCollectionCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2E49A50020060EC400BDBB8C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2E00F57220074BA900162AF9 /* QChinesePoem.h */,
+				2E00F57320074BA900162AF9 /* QChinesePoem.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2E49A50120060ECA00BDBB8C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2E49A50220060ECA00BDBB8C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2E49A50320060ED200BDBB8C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2E49A50420060ED200BDBB8C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CA819F46F76B7EE018C00387 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				020102F7FF1E5BFB4E8C69B7 /* Pods-QSpeech.debug.xcconfig */,
+				3F28E915DB45A30381BEC7EE /* Pods-QSpeech.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DE166379F429F4A3F525340A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF600EED07D6FEC2D7F69171 /* libPods-QSpeech.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E49A4C12005B5F300BDBB8C /* QSpeech */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E49A4DB2005B5F300BDBB8C /* Build configuration list for PBXNativeTarget "QSpeech" */;
+			buildPhases = (
+				9639486C0E2C7CC1B1D91995 /* [CP] Check Pods Manifest.lock */,
+				2E49A4BE2005B5F300BDBB8C /* Sources */,
+				2E49A4BF2005B5F300BDBB8C /* Frameworks */,
+				2E49A4C02005B5F300BDBB8C /* Resources */,
+				7E215C3CE3173D82182C9396 /* [CP] Embed Pods Frameworks */,
+				B616A6B6E286C7AEEFC29CD4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QSpeech;
+			productName = QSpeech;
+			productReference = 2E49A4C22005B5F300BDBB8C /* QSpeech.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E49A4BA2005B5F300BDBB8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = qrh;
+				TargetAttributes = {
+					2E49A4C12005B5F300BDBB8C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2E49A4BD2005B5F300BDBB8C /* Build configuration list for PBXProject "QSpeech" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E49A4B92005B5F300BDBB8C;
+			productRefGroup = 2E49A4C32005B5F300BDBB8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E49A4C12005B5F300BDBB8C /* QSpeech */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E49A4C02005B5F300BDBB8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E49A4D52005B5F300BDBB8C /* LaunchScreen.storyboard in Resources */,
+				2E00F5712007497D00162AF9 /* poems.plist in Resources */,
+				2E49A4D22005B5F300BDBB8C /* Assets.xcassets in Resources */,
+				2E49A4D02005B5F300BDBB8C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7E215C3CE3173D82182C9396 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QSpeech/Pods-QSpeech-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9639486C0E2C7CC1B1D91995 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QSpeech-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B616A6B6E286C7AEEFC29CD4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QSpeech/Pods-QSpeech-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E49A4BE2005B5F300BDBB8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E49A4E62005BD5F00BDBB8C /* QNavigationViewController.m in Sources */,
+				2E00F56E2007489F00162AF9 /* QChinesePoemDetailViewController.m in Sources */,
+				2E49A4E32005BD3800BDBB8C /* BaseViewController.m in Sources */,
+				2E01B569200CA82800B68FBB /* QPresentationController.m in Sources */,
+				2E01B566200C990700B68FBB /* QTranstionAnimation.m in Sources */,
+				2E49A4F820060E6E00BDBB8C /* QChineseViewController.m in Sources */,
+				2E00F57420074BA900162AF9 /* QChinesePoem.m in Sources */,
+				2E420B8C2046595A00A6684E /* UIImage+Extension.m in Sources */,
+				2E00F56B200719D600162AF9 /* QChineseABCViewController.m in Sources */,
+				2E00F57720074EBE00162AF9 /* QChineseCollectionCell.m in Sources */,
+				2E49A4F52005F55500BDBB8C /* UILabel+Extension.m in Sources */,
+				2E49A4FB20060E7F00BDBB8C /* QMathViewController.m in Sources */,
+				2E49A4C72005B5F300BDBB8C /* AppDelegate.m in Sources */,
+				2E00F5682007198600162AF9 /* QChinesePoemListController.m in Sources */,
+				2E49A4E92005BDAB00BDBB8C /* QMainViewController.m in Sources */,
+				2E49A4F12005E98C00BDBB8C /* QMainCollectionCell.m in Sources */,
+				2E49A4D82005B5F300BDBB8C /* main.m in Sources */,
+				2E49A4FE20060E8E00BDBB8C /* QMoreViewController.m in Sources */,
+				2E420B89204657B600A6684E /* QADView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2E49A4CE2005B5F300BDBB8C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E49A4CF2005B5F300BDBB8C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2E49A4D32005B5F300BDBB8C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E49A4D42005B5F300BDBB8C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E49A4D92005B5F300BDBB8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2E49A4DA2005B5F300BDBB8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E49A4DC2005B5F300BDBB8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 020102F7FF1E5BFB4E8C69B7 /* Pods-QSpeech.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SS65L357P2;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/QSpeech/PrefixHeader.pch";
+				INFOPLIST_FILE = QSpeech/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chinamons.etongxing.customer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2E49A4DD2005B5F300BDBB8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F28E915DB45A30381BEC7EE /* Pods-QSpeech.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SS65L357P2;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/QSpeech/PrefixHeader.pch";
+				INFOPLIST_FILE = QSpeech/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chinamons.etongxing.customer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E49A4BD2005B5F300BDBB8C /* Build configuration list for PBXProject "QSpeech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E49A4D92005B5F300BDBB8C /* Debug */,
+				2E49A4DA2005B5F300BDBB8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E49A4DB2005B5F300BDBB8C /* Build configuration list for PBXNativeTarget "QSpeech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E49A4DC2005B5F300BDBB8C /* Debug */,
+				2E49A4DD2005B5F300BDBB8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E49A4BA2005B5F300BDBB8C /* Project object */;
+}
