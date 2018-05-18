@@ -126,7 +126,12 @@
     return _showBtn;
 }
 -(NSArray *)dataArr{
-    return @[@"A",@"B",@"C",@"D",@"E",@"F",@"G",@"H",@"I",@"J",@"K",@"L",@"M",@"N",@"O",@"P",@"Q",@"R",@"S",@"T",@"U",@"V",@"W",@"X",@"Y",@"Z",];
+    NSMutableArray *arr = [NSMutableArray array];
+    for (int i = 0; i<26; i++) {
+        char c = 'A';
+        [arr addObject:[NSString stringWithFormat:@"%c",c+i]];
+    }
+    return arr;
 }
 -(AVSpeechSynthesizer *)synth{
     if(!_synth){
